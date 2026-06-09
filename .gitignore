@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+fashion-ai-env/
+*.egg-info/
+
+# Large model files
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# HuggingFace cache
+.cache/
+~/.cache/
+
+# Large dataset folders
+datasets/raw/
+datasets/processed/
+
+# Generated images (keep lookbook only)
+week2_sdxl/outputs/
+week2_sdxl/prompt_experiments/
+week2_sdxl/library_outputs/
+week3_controlnet/outputs/
+week3_controlnet/pose_outputs/
+week4_lora/datasets/
+week5_rag/chromadb/
+week5_rag/image_embeddings.npz
+week5_rag/text_embeddings.npz
+
+# Logs
+*.log
+nohup.out
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+*.env

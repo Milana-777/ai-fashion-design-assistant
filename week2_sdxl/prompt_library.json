@@ -1,0 +1,365 @@
+{
+  "schema": {
+    "categories": {
+      "dress": "dress",
+      "top": "blouse top shirt",
+      "outerwear": "jacket coat blazer",
+      "pants": "trousers pants",
+      "skirt": "skirt",
+      "jumpsuit": "jumpsuit overall",
+      "activewear": "sports outfit activewear set"
+    },
+    "silhouettes": {
+      "fitted": "fitted bodycon silhouette",
+      "oversized": "oversized relaxed fit",
+      "a-line": "A-line flared silhouette",
+      "straight": "straight cut minimal silhouette",
+      "wrap": "wrap style silhouette"
+    },
+    "fabrics": {
+      "silk": "silk satin fabric, lustrous sheen",
+      "cotton": "soft cotton fabric, casual texture",
+      "linen": "linen fabric, breathable natural texture",
+      "velvet": "rich velvet fabric, luxurious texture",
+      "denim": "denim fabric, structured texture",
+      "chiffon": "sheer chiffon fabric, flowy drape",
+      "leather": "genuine leather fabric, structured"
+    },
+    "colors": {
+      "black": "all black colorway",
+      "white": "crisp white colorway",
+      "navy": "deep navy blue colorway",
+      "red": "vibrant red colorway",
+      "beige": "neutral beige colorway",
+      "emerald": "emerald green colorway",
+      "blush": "soft blush pink colorway",
+      "multicolor": "multicolor print colorway"
+    },
+    "patterns": {
+      "solid": "solid color, no pattern",
+      "floral": "floral print pattern",
+      "stripe": "classic stripe pattern",
+      "check": "check plaid pattern",
+      "abstract": "abstract artistic pattern",
+      "geometric": "geometric pattern"
+    },
+    "occasions": {
+      "casual": "casual everyday wear",
+      "formal": "formal occasion wear",
+      "evening": "evening gala wear",
+      "streetwear": "urban streetwear style",
+      "business": "business professional attire",
+      "beach": "beach resort wear"
+    },
+    "photo_styles": {
+      "editorial": "vogue editorial fashion photography, professional studio lighting, white background",
+      "lookbook": "fashion lookbook style, natural lighting, clean background",
+      "product": "fashion product photography, flat lay style, white background, commercial quality",
+      "runway": "fashion runway show photography, dramatic lighting, high contrast"
+    },
+    "quality_tags": [
+      "ultra detailed",
+      "sharp focus",
+      "high resolution",
+      "4k",
+      "professional quality"
+    ],
+    "negative_base": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality"
+  },
+  "named_templates": {
+    "elegant_evening": {
+      "positive": "all black colorway, solid color, no pattern, fitted bodycon silhouette, dress, silk satin fabric, lustrous sheen, evening gala wear, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "fitted",
+        "fabric": "silk",
+        "color": "black",
+        "pattern": "solid",
+        "occasion": "evening",
+        "photo_style": "editorial"
+      }
+    },
+    "casual_summer": {
+      "positive": "soft blush pink colorway, floral print pattern, A-line flared silhouette, dress, soft cotton fabric, casual texture, casual everyday wear, fashion lookbook style, natural lighting, clean background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "a-line",
+        "fabric": "cotton",
+        "color": "blush",
+        "pattern": "floral",
+        "occasion": "casual",
+        "photo_style": "lookbook"
+      }
+    },
+    "power_blazer": {
+      "positive": "deep navy blue colorway, solid color, no pattern, straight cut minimal silhouette, jacket coat blazer, linen fabric, breathable natural texture, business professional attire, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "outerwear",
+        "silhouette": "straight",
+        "fabric": "linen",
+        "color": "navy",
+        "pattern": "solid",
+        "occasion": "business",
+        "photo_style": "editorial"
+      }
+    },
+    "streetwear_set": {
+      "positive": "all black colorway, solid color, no pattern, oversized relaxed fit, sports outfit activewear set, soft cotton fabric, casual texture, urban streetwear style, fashion lookbook style, natural lighting, clean background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "activewear",
+        "silhouette": "oversized",
+        "fabric": "cotton",
+        "color": "black",
+        "pattern": "solid",
+        "occasion": "streetwear",
+        "photo_style": "lookbook"
+      }
+    },
+    "boho_chic": {
+      "positive": "multicolor print colorway, floral print pattern, A-line flared silhouette, dress, sheer chiffon fabric, flowy drape, casual everyday wear, fashion lookbook style, natural lighting, clean background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "a-line",
+        "fabric": "chiffon",
+        "color": "multicolor",
+        "pattern": "floral",
+        "occasion": "casual",
+        "photo_style": "lookbook"
+      }
+    },
+    "luxury_evening": {
+      "positive": "emerald green colorway, solid color, no pattern, fitted bodycon silhouette, dress, rich velvet fabric, luxurious texture, evening gala wear, fashion runway show photography, dramatic lighting, high contrast, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "fitted",
+        "fabric": "velvet",
+        "color": "emerald",
+        "pattern": "solid",
+        "occasion": "evening",
+        "photo_style": "runway"
+      }
+    },
+    "summer_beach": {
+      "positive": "crisp white colorway, solid color, no pattern, A-line flared silhouette, dress, sheer chiffon fabric, flowy drape, beach resort wear, fashion product photography, flat lay style, white background, commercial quality, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "a-line",
+        "fabric": "chiffon",
+        "color": "white",
+        "pattern": "solid",
+        "occasion": "beach",
+        "photo_style": "product"
+      }
+    },
+    "classic_trench": {
+      "positive": "neutral beige colorway, solid color, no pattern, straight cut minimal silhouette, jacket coat blazer, soft cotton fabric, casual texture, casual everyday wear, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "outerwear",
+        "silhouette": "straight",
+        "fabric": "cotton",
+        "color": "beige",
+        "pattern": "solid",
+        "occasion": "casual",
+        "photo_style": "editorial"
+      }
+    }
+  },
+  "random_samples": [
+    {
+      "positive": "multicolor print colorway, abstract artistic pattern, wrap style silhouette, jumpsuit overall, silk satin fabric, lustrous sheen, casual everyday wear, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "jumpsuit",
+        "silhouette": "wrap",
+        "fabric": "silk",
+        "color": "multicolor",
+        "pattern": "abstract",
+        "occasion": "casual",
+        "photo_style": "editorial"
+      }
+    },
+    {
+      "positive": "multicolor print colorway, classic stripe pattern, wrap style silhouette, dress, linen fabric, breathable natural texture, formal occasion wear, fashion runway show photography, dramatic lighting, high contrast, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "wrap",
+        "fabric": "linen",
+        "color": "multicolor",
+        "pattern": "stripe",
+        "occasion": "formal",
+        "photo_style": "runway"
+      }
+    },
+    {
+      "positive": "crisp white colorway, check plaid pattern, fitted bodycon silhouette, sports outfit activewear set, rich velvet fabric, luxurious texture, beach resort wear, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "activewear",
+        "silhouette": "fitted",
+        "fabric": "velvet",
+        "color": "white",
+        "pattern": "check",
+        "occasion": "beach",
+        "photo_style": "editorial"
+      }
+    },
+    {
+      "positive": "multicolor print colorway, solid color, no pattern, wrap style silhouette, jumpsuit overall, linen fabric, breathable natural texture, business professional attire, fashion runway show photography, dramatic lighting, high contrast, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "jumpsuit",
+        "silhouette": "wrap",
+        "fabric": "linen",
+        "color": "multicolor",
+        "pattern": "solid",
+        "occasion": "business",
+        "photo_style": "runway"
+      }
+    },
+    {
+      "positive": "multicolor print colorway, abstract artistic pattern, oversized relaxed fit, blouse top shirt, soft cotton fabric, casual texture, beach resort wear, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "top",
+        "silhouette": "oversized",
+        "fabric": "cotton",
+        "color": "multicolor",
+        "pattern": "abstract",
+        "occasion": "beach",
+        "photo_style": "editorial"
+      }
+    },
+    {
+      "positive": "neutral beige colorway, solid color, no pattern, oversized relaxed fit, sports outfit activewear set, genuine leather fabric, structured, urban streetwear style, fashion runway show photography, dramatic lighting, high contrast, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "activewear",
+        "silhouette": "oversized",
+        "fabric": "leather",
+        "color": "beige",
+        "pattern": "solid",
+        "occasion": "streetwear",
+        "photo_style": "runway"
+      }
+    },
+    {
+      "positive": "deep navy blue colorway, floral print pattern, fitted bodycon silhouette, blouse top shirt, silk satin fabric, lustrous sheen, formal occasion wear, fashion runway show photography, dramatic lighting, high contrast, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "top",
+        "silhouette": "fitted",
+        "fabric": "silk",
+        "color": "navy",
+        "pattern": "floral",
+        "occasion": "formal",
+        "photo_style": "runway"
+      }
+    },
+    {
+      "positive": "vibrant red colorway, geometric pattern, oversized relaxed fit, blouse top shirt, genuine leather fabric, structured, formal occasion wear, fashion lookbook style, natural lighting, clean background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "top",
+        "silhouette": "oversized",
+        "fabric": "leather",
+        "color": "red",
+        "pattern": "geometric",
+        "occasion": "formal",
+        "photo_style": "lookbook"
+      }
+    },
+    {
+      "positive": "all black colorway, abstract artistic pattern, straight cut minimal silhouette, trousers pants, linen fabric, breathable natural texture, urban streetwear style, fashion runway show photography, dramatic lighting, high contrast, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "pants",
+        "silhouette": "straight",
+        "fabric": "linen",
+        "color": "black",
+        "pattern": "abstract",
+        "occasion": "streetwear",
+        "photo_style": "runway"
+      }
+    },
+    {
+      "positive": "multicolor print colorway, check plaid pattern, A-line flared silhouette, jacket coat blazer, soft cotton fabric, casual texture, formal occasion wear, fashion runway show photography, dramatic lighting, high contrast, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "outerwear",
+        "silhouette": "a-line",
+        "fabric": "cotton",
+        "color": "multicolor",
+        "pattern": "check",
+        "occasion": "formal",
+        "photo_style": "runway"
+      }
+    }
+  ],
+  "color_variants": [
+    {
+      "positive": "vibrant red colorway, solid color, no pattern, fitted bodycon silhouette, dress, silk satin fabric, lustrous sheen, evening gala wear, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "fitted",
+        "fabric": "silk",
+        "color": "red",
+        "pattern": "solid",
+        "occasion": "evening",
+        "photo_style": "editorial"
+      },
+      "variant_name": "elegant_evening_red"
+    },
+    {
+      "positive": "crisp white colorway, solid color, no pattern, fitted bodycon silhouette, dress, silk satin fabric, lustrous sheen, evening gala wear, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "fitted",
+        "fabric": "silk",
+        "color": "white",
+        "pattern": "solid",
+        "occasion": "evening",
+        "photo_style": "editorial"
+      },
+      "variant_name": "elegant_evening_white"
+    },
+    {
+      "positive": "emerald green colorway, solid color, no pattern, fitted bodycon silhouette, dress, silk satin fabric, lustrous sheen, evening gala wear, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "fitted",
+        "fabric": "silk",
+        "color": "emerald",
+        "pattern": "solid",
+        "occasion": "evening",
+        "photo_style": "editorial"
+      },
+      "variant_name": "elegant_evening_emerald"
+    },
+    {
+      "positive": "soft blush pink colorway, solid color, no pattern, fitted bodycon silhouette, dress, silk satin fabric, lustrous sheen, evening gala wear, vogue editorial fashion photography, professional studio lighting, white background, ultra detailed, sharp focus, high resolution",
+      "negative": "blurry, low quality, bad anatomy, watermark, text, ugly, deformed, extra limbs, bad proportions, duplicate, cropped, worst quality",
+      "params": {
+        "category": "dress",
+        "silhouette": "fitted",
+        "fabric": "silk",
+        "color": "blush",
+        "pattern": "solid",
+        "occasion": "evening",
+        "photo_style": "editorial"
+      },
+      "variant_name": "elegant_evening_blush"
+    }
+  ]
+}

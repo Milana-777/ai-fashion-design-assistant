@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "description": "Fashion attribute schema for AI design assistant",
+  "attributes": {
+    "category": {
+      "description": "Main garment type",
+      "values": ["dress", "top", "shirt", "blouse", "jacket", "coat",
+                 "pants", "skirt", "shorts", "jumpsuit", "sweater",
+                 "cardigan", "vest", "activewear", "swimwear", "unknown"]
+    },
+    "silhouette": {
+      "description": "Overall shape of the garment",
+      "values": ["a-line", "fitted", "oversized", "straight", "flared",
+                 "bodycon", "wrap", "shift", "empire", "unknown"]
+    },
+    "neckline": {
+      "description": "Neckline style",
+      "values": ["round", "v-neck", "square", "cowl", "off-shoulder",
+                 "halter", "turtleneck", "collared", "sweetheart", "unknown"]
+    },
+    "sleeve": {
+      "description": "Sleeve length and style",
+      "values": ["sleeveless", "short", "long", "3-quarter",
+                 "balloon", "puff", "cold-shoulder", "unknown"]
+    },
+    "pattern": {
+      "description": "Surface pattern or print",
+      "values": ["solid", "floral", "stripe", "check", "geometric",
+                 "abstract", "animal-print", "polka-dot", "unknown"]
+    },
+    "color_tone": {
+      "description": "Dominant color family",
+      "values": ["black", "white", "gray", "beige", "brown", "red",
+                 "pink", "orange", "yellow", "green", "blue",
+                 "purple", "multicolor", "unknown"]
+    },
+    "fabric_weight": {
+      "description": "Fabric heaviness",
+      "values": ["sheer", "light", "medium", "heavy", "unknown"]
+    },
+    "occasion": {
+      "description": "Intended wear occasion",
+      "values": ["casual", "formal", "evening", "streetwear",
+                 "business", "athletic", "beach", "unknown"]
+    },
+    "gender": {
+      "description": "Target gender",
+      "values": ["women", "men", "unisex", "unknown"]
+    },
+    "season": {
+      "description": "Suitable season",
+      "values": ["spring", "summer", "autumn", "winter", "all-season", "unknown"]
+    }
+  }
+}

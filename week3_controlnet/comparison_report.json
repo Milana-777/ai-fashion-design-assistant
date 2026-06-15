@@ -1,0 +1,20 @@
+[
+  {
+    "name": "evening_dress",
+    "uncontrolled_score": 29.77,
+    "controlled_score": 24.08,
+    "improvement": -5.69
+  },
+  {
+    "name": "power_suit",
+    "uncontrolled_score": 20.54,
+    "controlled_score": 28.49,
+    "improvement": 7.95
+  },
+  {
+    "name": "casual_top",
+    "uncontrolled_score": 19.67,
+    "controlled_score": 25.48,
+    "improvement": 5.81
+  }
+]

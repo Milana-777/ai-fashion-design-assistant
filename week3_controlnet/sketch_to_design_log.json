@@ -1,0 +1,23 @@
+[
+  {
+    "name": "evening_dress",
+    "sketch": "week3_controlnet/sketches/evening_dress_sketch.png",
+    "edges": "week3_controlnet/edge_maps/evening_dress_edges.png",
+    "output": "week3_controlnet/outputs/evening_dress.png",
+    "time_sec": 1936
+  },
+  {
+    "name": "power_suit",
+    "sketch": "week3_controlnet/sketches/power_suit_sketch.png",
+    "edges": "week3_controlnet/edge_maps/power_suit_edges.png",
+    "output": "week3_controlnet/outputs/power_suit.png",
+    "time_sec": 1479
+  },
+  {
+    "name": "casual_top",
+    "sketch": "week3_controlnet/sketches/casual_top_sketch.png",
+    "edges": "week3_controlnet/edge_maps/casual_top_edges.png",
+    "output": "week3_controlnet/outputs/casual_top.png",
+    "time_sec": 1449
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "standing_evening",
+    "pose": "standing",
+    "pose_img": "week3_controlnet/pose_outputs/standing_evening_pose.png",
+    "output": "week3_controlnet/pose_outputs/standing_evening_output.png",
+    "time_sec": 1407
+  },
+  {
+    "name": "walking_streetwear",
+    "pose": "walking",
+    "pose_img": "week3_controlnet/pose_outputs/walking_streetwear_pose.png",
+    "output": "week3_controlnet/pose_outputs/walking_streetwear_output.png",
+    "time_sec": 6056
+  },
+  {
+    "name": "hips_powersuit",
+    "pose": "hands_on_hips",
+    "pose_img": "week3_controlnet/pose_outputs/hips_powersuit_pose.png",
+    "output": "week3_controlnet/pose_outputs/hips_powersuit_output.png",
+    "time_sec": 2427
+  }
+]

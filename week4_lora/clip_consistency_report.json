@@ -1,0 +1,20 @@
+[
+  {
+    "brand": "minimalist",
+    "score_1": 29.4,
+    "score_2": 27.32,
+    "consistency": 78.04
+  },
+  {
+    "brand": "streetwear",
+    "score_1": 29.61,
+    "score_2": 28.82,
+    "consistency": 83.85
+  },
+  {
+    "brand": "luxury",
+    "score_1": 26.84,
+    "score_2": 30.59,
+    "consistency": 80.93
+  }
+]

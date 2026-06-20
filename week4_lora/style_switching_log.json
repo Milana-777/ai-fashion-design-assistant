@@ -1,0 +1,38 @@
+[
+  {
+    "brand": "minimalist",
+    "prompt": "<minimalist-style> elegant white dress, clean lines, neutral palette, fashion photography, white background",
+    "output": "week4_lora/outputs/minimalist_design_1.png",
+    "time": 1358
+  },
+  {
+    "brand": "minimalist",
+    "prompt": "<minimalist-style> beige structured blazer, minimal design, understated, editorial style",
+    "output": "week4_lora/outputs/minimalist_design_2.png",
+    "time": 1122
+  },
+  {
+    "brand": "streetwear",
+    "prompt": "<streetwear-style> oversized black hoodie, bold graphic, urban fashion, street photography style",
+    "output": "week4_lora/outputs/streetwear_design_1.png",
+    "time": 1123
+  },
+  {
+    "brand": "streetwear",
+    "prompt": "<streetwear-style> cargo pants outfit, layered look, city background, editorial",
+    "output": "week4_lora/outputs/streetwear_design_2.png",
+    "time": 2661
+  },
+  {
+    "brand": "luxury",
+    "prompt": "<luxury-style> black velvet evening gown, gold embroidery, opulent details, high fashion photography",
+    "output": "week4_lora/outputs/luxury_design_1.png",
+    "time": 1707
+  },
+  {
+    "brand": "luxury",
+    "prompt": "<luxury-style> silk brocade jacket, jewel tones, couture quality, editorial luxury",
+    "output": "week4_lora/outputs/luxury_design_2.png",
+    "time": 1625
+  }
+]

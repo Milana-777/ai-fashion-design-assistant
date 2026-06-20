@@ -1,0 +1,22 @@
+{
+  "brands": [
+    "minimalist",
+    "streetwear",
+    "luxury"
+  ],
+  "tokens": {
+    "minimalist": "<minimalist-style>",
+    "streetwear": "<streetwear-style>",
+    "luxury": "<luxury-style>"
+  },
+  "descriptions": {
+    "minimalist": "Clean lines, neutral palette, minimal decoration",
+    "streetwear": "Bold graphics, oversized fits, urban aesthetic",
+    "luxury": "Rich fabrics, ornate details, opulent aesthetic"
+  },
+  "image_counts": {
+    "minimalist": 35,
+    "streetwear": 35,
+    "luxury": 35
+  }
+}

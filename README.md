@@ -22,3 +22,11 @@ Week 1: Dataset pipeline | Week 2: Stable Diffusion generation
 - Stored and queried embeddings using ChromaDB vector database
 - Built RAG pipeline: text query → CLIP embedding → ChromaDB search → trend matching
 - Processed 5 style queries with relevant image and trend recommendations
+
+### Week 6 — Gradio Creative Studio
+- Built 4-tab interactive Gradio creative studio
+- Sketch2Design: upload hand-drawn sketch → AI generates fashion photo
+- StyleMixer: select brand style + garment + color → styled design output
+- WardrobeGen: choose occasion + season + persona → complete outfit generation
+- Trend explorer: type style query → RAG retrieves trends + similar images
+- Live demo runs locally at http://127.0.0.1:7860

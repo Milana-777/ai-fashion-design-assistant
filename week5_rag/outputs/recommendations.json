@@ -1,0 +1,117 @@
+[
+  {
+    "query": "minimalist white dress clean lines neutral",
+    "trend_match": "quiet luxury",
+    "similar_images": [
+      "00960.jpg",
+      "00424.jpg",
+      "00553.jpg",
+      "00769.jpg",
+      "00635.jpg"
+    ],
+    "distances": [
+      1.3931,
+      1.3959,
+      1.3977,
+      1.4011,
+      1.4195
+    ],
+    "style_matches": [
+      "minimalist fashion style, Clean lines, neutral pal",
+      "quiet luxury fashion style, minimalist, neutral, u",
+      "classic fashion style, Timeless pieces, quality fa"
+    ]
+  },
+  {
+    "query": "bold streetwear oversized hoodie urban",
+    "trend_match": "techwear",
+    "similar_images": [
+      "00687.jpg",
+      "00199.jpg",
+      "00715.jpg",
+      "00178.jpg",
+      "00416.jpg"
+    ],
+    "distances": [
+      1.4257,
+      1.4768,
+      1.477,
+      1.4795,
+      1.4896
+    ],
+    "style_matches": [
+      "streetwear fashion style, Urban, comfortable, bran",
+      "quiet luxury fashion style, minimalist, neutral, u",
+      "classic fashion style, Timeless pieces, quality fa"
+    ]
+  },
+  {
+    "query": "elegant evening gown luxury silk velvet",
+    "trend_match": "quiet luxury",
+    "similar_images": [
+      "00395.jpg",
+      "00640.jpg",
+      "00424.jpg",
+      "00278.jpg",
+      "00837.jpg"
+    ],
+    "distances": [
+      1.4106,
+      1.437,
+      1.4408,
+      1.4506,
+      1.4531
+    ],
+    "style_matches": [
+      "classic fashion style, Timeless pieces, quality fa",
+      "bohemian fashion style, Flowy fabrics, earthy tone",
+      "streetwear fashion style, Urban, comfortable, bran"
+    ]
+  },
+  {
+    "query": "casual summer floral bohemian dress",
+    "trend_match": "cottagecore",
+    "similar_images": [
+      "00523.jpg",
+      "00356.jpg",
+      "00468.jpg",
+      "00489.jpg",
+      "00108.jpg"
+    ],
+    "distances": [
+      1.3974,
+      1.4272,
+      1.434,
+      1.4415,
+      1.4432
+    ],
+    "style_matches": [
+      "cottagecore fashion style, floral, prairie, romant",
+      "bohemian fashion style, Flowy fabrics, earthy tone",
+      "maximalist fashion style, Bold prints, layering, s"
+    ]
+  },
+  {
+    "query": "power suit professional tailored blazer",
+    "trend_match": "power suiting",
+    "similar_images": [
+      "00180.jpg",
+      "00932.jpg",
+      "00135.jpg",
+      "00120.jpg",
+      "00668.jpg"
+    ],
+    "distances": [
+      1.4486,
+      1.4861,
+      1.4934,
+      1.5025,
+      1.5046
+    ],
+    "style_matches": [
+      "power suiting fashion style, tailored, structured,",
+      "classic fashion style, Timeless pieces, quality fa",
+      "streetwear fashion style, Urban, comfortable, bran"
+    ]
+  }
+]

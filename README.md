@@ -15,3 +15,10 @@ Week 1: Dataset pipeline | Week 2: Stable Diffusion generation
 - Implemented prompt-token style switching (e.g. <minimalist-style>)
 - Evaluated brand consistency using CLIP similarity scoring
 - Minimalist adapter achieved final training loss of 0.0835
+
+### Week 5 — Intelligent Style Recommendation (RAG)
+- Built fashion knowledge base with 8 trends, 6 style personas, 6 color palettes
+- Embedded 200 fashion images using CLIP ViT-B-32 into 512-dimensional vectors
+- Stored and queried embeddings using ChromaDB vector database
+- Built RAG pipeline: text query → CLIP embedding → ChromaDB search → trend matching
+- Processed 5 style queries with relevant image and trend recommendations

@@ -13,16 +13,6 @@ Built an end-to-end AI fashion design system using Stable Diffusion, ControlNet,
 - Gradio + FastAPI + Celery + Redis
 - Docker + Kubernetes
 
-<<<<<<< HEAD
-## Setup
-```bash
-python -m venv fashion-ai-env
-source fashion-ai-env/bin/activate
-pip install torch diffusers transformers open-clip-torch datasets pillow pandas matplotlib gradio fastapi uvicorn chromadb peft
-```
-
-=======
->>>>>>> ff49ea348e612d5d4dd871e285d8912c1095cb37
 ## Week-by-week progress
 
 ### Week 1 — Fashion Domain Research and Dataset Curation
@@ -98,7 +88,4 @@ pip install torch diffusers transformers open-clip-torch datasets pillow pandas 
 
 ## Author
 Sreenivasulu Gari Milana — Generative AI Internship — Aarivya Labs 2026
-<<<<<<< HEAD
-=======
 
->>>>>>> ff49ea348e612d5d4dd871e285d8912c1095cb37
